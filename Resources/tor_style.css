@@ -1,0 +1,116 @@
+* { 
+	margin: 0; 
+	padding: 0; }
+table { 
+	text-align: center; 
+	width: 100%; 
+	border-collapse: collapse; }
+
+
+.main {
+	margin: 0 auto;
+	width: 7.5in;
+	padding: 0.5in;
+	background-color: #ffffff;
+	background-image: url(torbg.jpg);
+	background-repeat: no-repeat;
+	background-size: 8.5in 14in;
+	overflow: hidden;
+	font: 11pt Calibri; 
+	box-shadow: 0 5px 5px #000000; 
+	border-bottom: 1px solid #999999; }
+.header {
+	margin-top: 110pt; 
+	height: 1.2in; }
+.header td {
+	vertical-align: top;
+	height: 13pt;
+	text-align: left; }
+.header .line1 td {
+	padding-left: 45pt;
+	font-weight: bold; }
+.header .line1 td  span {
+	padding-right: 20pt;
+	font-size: 11pt;
+	font-family: Tahoma; }
+.header .line2 td {
+	padding-left: 55pt; padding-top: 1pt;}
+.header .line3 td {
+	padding-left: 80pt;}
+.header .line3 td, .header .line4 td, .header .line5 td {
+	padding-top: 2pt;}
+.header .line4 {
+	font-weight: bold; }
+.header .line4 td#prog {
+	padding-left: 55pt; }
+.small {
+	font-size: 9pt; }
+.header .line4 td#spec {
+	padding-left: 145pt; }
+.header .line5 td#admit {
+	padding-left: 80pt; }
+.header .line5 td#creds {
+	padding-left: 110pt; font-size: 9pt; line-height: 1; }
+#bday, #prog, #admit {
+	width: 215pt;
+}
+
+.grades {
+	margin-top: 30pt;
+	font: 11pt Calibri;
+	height: 7in; }
+.grades td {
+	text-align: left; 
+	padding: 0 10pt;
+	vertical-align: top; }
+.grades td.cno {
+	width: 55pt; }
+.grades td.desc {
+	width: 250pt; }
+.grades td.grd {
+	width: 35pt; 
+	text-align: center; }
+.grades td.grd2 {
+	width: 40pt; 
+	text-align: center; }
+.grades td.credits {
+	text-align: center; }
+
+.grades textarea#fdetails, .grades textarea#hdetails {
+	background: transparent;
+	border: none;
+	width: 6in;
+	font: 11pt Calibri;
+	font-weight: bold;
+	text-align: center;
+	padding: 0 25pt;
+	resize: none;
+	overflow-x: scroll; /* or hidden */
+}
+.footer {
+	margin-top: 5pt; 
+	margin-bottom: 12pt;}
+.footer #legends {
+	height: 75pt; }
+.footer #remark {
+	padding-top: 8pt; }
+.footer #remark span {
+	font-style: italic; }
+.footer #brno {
+	padding-top: 3pt; 
+	padding-left: 340pt; 
+	text-align: left; }
+.footer #signatories {
+	padding-top: 1pt; }
+.footer #signatories th {
+	text-align: center;
+	padding-top: 8pt;
+	height: 40pt;}
+.footer #signatories #prepared {
+	width: 190pt; }
+.footer #signatories #verified {
+	width: 150pt; }
+
+@media print {
+	  .main {page-break-after: always; border: none; overflow: visible; box-shadow: none; }
+	}
